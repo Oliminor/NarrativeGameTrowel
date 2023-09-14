@@ -1,0 +1,598 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8960080682014747574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: b5bfa7f4-c2b9-4f59-a93d-409d8a2d346d
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Seems you had a very different cost in mind for him to pay.
+  children:
+  - 67c948a4-984a-4a77-b631-5dc3e2f75a89
+  rect:
+    serializedVersion: 2
+    x: 2759
+    y: 411
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 5790cd404e58fc749a2835837d1c7af0, type: 3}
+--- !u!114 &-6806114056553910268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: aac60647-064f-4dd7-9e76-48134b0f8226
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Goodbye.
+  children:
+  - a73bdd76-c716-4309-ba97-24ce5a564a79
+  rect:
+    serializedVersion: 2
+    x: 1564
+    y: 550
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &-6400838745937447539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 67c948a4-984a-4a77-b631-5dc3e2f75a89
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "That's the most confounding thing detective. I don\u2019t know what sort
+    of impression you might have speaking to that lass in the office, but I\u2019d
+    instigated nothing physical. I may\u2019ve had some choice words to give him
+    but nothing more. He was truly out of sorts that day. Caught in a nasty sweat
+    worse than my wifes, with fear and madness swirling through his eyes."
+  children:
+  - adea5566-318e-4b6a-bd37-cce004250589
+  rect:
+    serializedVersion: 2
+    x: 3059
+    y: 411
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a31cf0b88c3136643a84c81f9e37f7d8, type: 3}
+--- !u!114 &-3903628615843908462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: a4262b3c-4e8b-4094-b29f-46a6b8afc6cd
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "My wife\u2026"
+  children:
+  - 78afab87-33d0-4163-8b29-942a779bd2f0
+  rect:
+    serializedVersion: 2
+    x: 283
+    y: 354
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 5ce4871b39facc34c838efd2c5752e4f, type: 3}
+--- !u!114 &-3065304435152714183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 22ab0cb4-de5c-4928-a5c1-55f2bdd8a9b1
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Who are they? What are they putting in the river?
+  children:
+  - 05ea3b97-ac58-4b7d-b1d4-4e9fca8067f9
+  rect:
+    serializedVersion: 2
+    x: 1994
+    y: 253
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 668805a7cdff3cf4b87d15e63432bc70, type: 3}
+--- !u!114 &-2653412660812149383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 09719d18-6c21-4318-8269-8507f0850a3d
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "MY WIFE! Please detective you have to help to me. They\u2019ve gone and
+    filled our river with something so vile and acrid. Everything it spreads to sees
+    an untimely demise. First it were my crops and I thought not much of it, but
+    now my wifes become so gravely ill. She weren\u2019t in rude health to begin
+    with, so I fear she won\u2019t survive this. "
+  children:
+  - fc0f1790-5170-4b9c-b292-b607c28831c6
+  rect:
+    serializedVersion: 2
+    x: 955
+    y: 366
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 87f8931a7c319de44871437e11b6fff2, type: 3}
+--- !u!114 &-1083441492308301039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 05ea3b97-ac58-4b7d-b1d4-4e9fca8067f9
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: " I\u2019d be the first to tell you if I knew detective, honest. I seen \u2018em
+    in the early hours of the morning when the fog and dew still blanket my fields,
+    it were hard to catch much of a glimpse. What I did see is they\u2019ve got themselves
+    a van of sorts bringing great big barrels of the stuff they pour right in. "
+  children:
+  - afd572b8-0aa9-4cf3-815f-259f3c2e2a20
+  rect:
+    serializedVersion: 2
+    x: 2326
+    y: 254
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: ba905a794b385e34b905ca2d29429817, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: e3e07376163066e458668f30d5445102, type: 3}
+--- !u!114 &-850468615307262881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 80dcc394-6a58-4acb-a3ad-d4aecf3f92ca
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "I thought he\u2019d want it properly investigated seeing as that river passes
+    through the whole village. But instead in his correspondence he had the gall
+    to tell me things like this are the cost of business, and that I should come
+    speak to him to find my own."
+  children:
+  - b5bfa7f4-c2b9-4f59-a93d-409d8a2d346d
+  rect:
+    serializedVersion: 2
+    x: 2459
+    y: 411
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 0c66d6c667678e846bd9b1da2ed13c68, type: 3}
+--- !u!114 &-9238563059012817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: fc1f7d2f-60ce-4060-83d1-89f07189deda
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Well, I won\u2019t sugar coat things Rhubarb. As things stand right now
+    you\u2019re unquestionably guilty of causing Mr Tulips death, intentionally or
+    otherwise. So if there's anything that might help your case, now's your chance."
+  children:
+  - a4262b3c-4e8b-4094-b29f-46a6b8afc6cd
+  rect:
+    serializedVersion: 2
+    x: -16
+    y: 353
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 4452248c437d48347a4052dccb6a506d, type: 2}
+  evidenceCard: {fileID: 11400000, guid: df67fa9327a0a674a8eec9b21443cffc, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: d0e8ea4f661bc5244929558c09f68834, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Rhubarb Main
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -9238563059012817}
+  - {fileID: -3903628615843908462}
+  - {fileID: 5977205629130257742}
+  - {fileID: -2653412660812149383}
+  - {fileID: 3220470936280982917}
+  - {fileID: 6661556244900372885}
+  - {fileID: 3412650473121263246}
+  - {fileID: -6806114056553910268}
+  - {fileID: 3647656138594454802}
+  - {fileID: -3065304435152714183}
+  - {fileID: -1083441492308301039}
+  - {fileID: 7860719803267864927}
+  - {fileID: 1438934364149243739}
+  - {fileID: 3993775522773557736}
+  - {fileID: 2247833083203055928}
+  - {fileID: -850468615307262881}
+  - {fileID: -8960080682014747574}
+  - {fileID: -6400838745937447539}
+  - {fileID: 7981779837755967565}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &1438934364149243739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 9abdb40c-1f72-478c-a4e8-b9c2048ec075
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Not a clue detective. Black as the night and reeks of blood. I\u2019d not
+    usually pay her much mind but Mrs Foxglove might know a thing or two. She\u2019s
+    always been obsessing over pollution and the sorts.Telling me what I should and
+    shouldn\u2019t put on my crops the cantankerous crow."
+  children:
+  - 4ab774f2-8688-45a8-9d09-7023bd2ac8c6
+  - 9e8f4f2b-6703-4805-980d-f529dd9c5503
+  - aac60647-064f-4dd7-9e76-48134b0f8226
+  rect:
+    serializedVersion: 2
+    x: 2926
+    y: 253
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 975f3d15daeb8e149bdaf2a2cba3ca83, type: 3}
+--- !u!114 &2247833083203055928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 349fa1d8-442d-4071-aee3-e10a133bb29a
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "That despicable whoreson. I sent him a letter telling him of what I\u2019d
+    witnessed. When I\u2019d informed the police they wouldn\u2019t give me the time
+    of day and he were my only option at that point."
+  children:
+  - 80dcc394-6a58-4acb-a3ad-d4aecf3f92ca
+  rect:
+    serializedVersion: 2
+    x: 2159
+    y: 411
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 24396c8294c0fac459a36ab4c72aff38, type: 3}
+--- !u!114 &3220470936280982917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: fc0f1790-5170-4b9c-b292-b607c28831c6
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Calm down Rhubarb. I\u2019m terribly sorry for the state that your wife
+    finds herself in but none of this helps your case. Lets try and go over things
+    calmly."
+  children:
+  - 4ab774f2-8688-45a8-9d09-7023bd2ac8c6
+  - 9e8f4f2b-6703-4805-980d-f529dd9c5503
+  - aac60647-064f-4dd7-9e76-48134b0f8226
+  rect:
+    serializedVersion: 2
+    x: 1253
+    y: 364
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: d3e1d3c8eaad9aa4496f26d5dd4c863d, type: 3}
+--- !u!114 &3412650473121263246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 9e8f4f2b-6703-4805-980d-f529dd9c5503
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Tulips Office?
+  children:
+  - 51c9040c-9103-45f8-8f70-83345432ca1c
+  rect:
+    serializedVersion: 2
+    x: 1558
+    y: 412
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &3647656138594454802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: a73bdd76-c716-4309-ba97-24ce5a564a79
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Thank you Rhubarb that\u2019ll be all for now "
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2032
+    y: 573
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: d00c4517eb8c2794f926ff0abc1600a1, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 814db0c096eea8144be7a780f087dda9, type: 3}
+--- !u!114 &3993775522773557736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 51c9040c-9103-45f8-8f70-83345432ca1c
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Why were you at Mr Tulips office?
+  children:
+  - 349fa1d8-442d-4071-aee3-e10a133bb29a
+  rect:
+    serializedVersion: 2
+    x: 1859
+    y: 411
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 629002fc9908e7d418ea838d8205697b, type: 3}
+--- !u!114 &5977205629130257742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 78afab87-33d0-4163-8b29-942a779bd2f0
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Your what?
+  children:
+  - 09719d18-6c21-4318-8269-8507f0850a3d
+  rect:
+    serializedVersion: 2
+    x: 619
+    y: 358
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: f81768688893c2147bbd863a0c74e7a1, type: 3}
+--- !u!114 &6661556244900372885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 4ab774f2-8688-45a8-9d09-7023bd2ac8c6
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Who are they?
+  children:
+  - 22ab0cb4-de5c-4928-a5c1-55f2bdd8a9b1
+  rect:
+    serializedVersion: 2
+    x: 1602
+    y: 263
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &7860719803267864927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: afd572b8-0aa9-4cf3-815f-259f3c2e2a20
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Any idea as to whats in those barrels?
+  children:
+  - 9abdb40c-1f72-478c-a4e8-b9c2048ec075
+  rect:
+    serializedVersion: 2
+    x: 2626
+    y: 254
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a19b64c94d988354495cf9bbe59b6944, type: 3}
+--- !u!114 &7981779837755967565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: adea5566-318e-4b6a-bd37-cce004250589
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: He came at me with everything he had, so I fended him off, but soon enough
+    something came over him and struck his very core. He went into a convulsing,
+    gasping fit and before long toppled over. I tried reaching out to catch him but
+    it were to late.
+  children:
+  - 9e8f4f2b-6703-4805-980d-f529dd9c5503
+  - 4ab774f2-8688-45a8-9d09-7023bd2ac8c6
+  - aac60647-064f-4dd7-9e76-48134b0f8226
+  rect:
+    serializedVersion: 2
+    x: 3358
+    y: 411
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 93cad97f96e8b6d4c94362177880efa3, type: 3}

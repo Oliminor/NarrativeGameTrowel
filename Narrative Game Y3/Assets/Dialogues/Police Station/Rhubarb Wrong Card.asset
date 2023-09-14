@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Rhubarb Wrong Card
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1295602146206737040}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &1295602146206737040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 35a0761d-5ac7-4b29-9285-29f465b949b0
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Detective please, I just want my wife to be okay. I\u2019ve not go a clue
+    what that means."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: c54ef2ec6fdf18f459e4bbeae777e9ed, type: 3}

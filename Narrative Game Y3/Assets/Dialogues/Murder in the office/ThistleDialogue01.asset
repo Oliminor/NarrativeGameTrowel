@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7213921455501884769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 2ca2dc87-02e6-434f-8a77-33284411ca9e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "That\u2019s the illustrious head of council Mr Tulip."
+  children:
+  - a1345d6a-837e-4a6b-b441-827c416b3e72
+  rect:
+    serializedVersion: 2
+    x: 618
+    y: 265
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 59cebf727e21edb4baf4dfd694645e7c, type: 3}
+--- !u!114 &-3393660323025051350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: a1345d6a-837e-4a6b-b441-827c416b3e72
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Cause of death?
+  children:
+  - 8c0b43e4-dfe8-4c6c-9df0-7a788e03cca3
+  rect:
+    serializedVersion: 2
+    x: 918
+    y: 265
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: abf5f76b606a01242b1fa55ef866a500, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: ThistleDialogue01
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2269206952672440969}
+  - {fileID: 2021028386829896898}
+  - {fileID: -7213921455501884769}
+  - {fileID: -3393660323025051350}
+  - {fileID: 4636045509125937987}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &2021028386829896898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 86a4a72e-246f-4dbe-85d6-45d3a6fffe3a
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Good to see you constable. Who\u2019s the unfortunate fellow over there
+    in a heap on the floor? He seems to\u2019ve had a rough go of it."
+  children:
+  - 2ca2dc87-02e6-434f-8a77-33284411ca9e
+  rect:
+    serializedVersion: 2
+    x: 318
+    y: 265
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: 0a75db8f83f7b634a9e224557799cc8e, type: 2}
+  onEnterAction: SetName
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: e091a080e7e913549bda2ac60a8b8270, type: 3}
+--- !u!114 &2269206952672440969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 95cf5ffd-41fc-4e2f-8867-8161ce89628a
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Trowel! Timely as ever.
+  children:
+  - 86a4a72e-246f-4dbe-85d6-45d3a6fffe3a
+  rect:
+    serializedVersion: 2
+    x: 18
+    y: 265
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a5883dac0b3589a41a50c0108f13e534, type: 3}
+--- !u!114 &4636045509125937987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 8c0b43e4-dfe8-4c6c-9df0-7a788e03cca3
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Come now detective. It\u2019s quite plain to see. I\u2019d expect someone
+    of your stature to have a good sense of it from naught more than a quick glance."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1218
+    y: 265
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 3e473bdfb99cddc419aec9fd817a8ca6, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 9e380e7f75b426346bfe63ec27917371, type: 3}

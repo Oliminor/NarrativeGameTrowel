@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Dead Plant Inspect
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5662770317240830090}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &5662770317240830090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 6558ad08-2923-44ee-82f2-6460847bef29
+  m_EditorClassIdentifier: 
+  dialogueStatus: 2
+  text: A withering plant shoved to the side. Its owner never seemed to care for
+    it.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 175
+    y: 148
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: 2502eabdb49e8f6429ff77344f3b1cee, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}

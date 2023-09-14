@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9024997966318697776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: ae0cd970-fb1d-4d3e-a9a3-b3ee39836b0b
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "I\u2019ll be sure to keep that in mind detective. But yes the letter. Here
+    it is, do with it as you will."
+  children:
+  - 6014348b-9a1d-4713-b695-a9d31c04c9af
+  rect:
+    serializedVersion: 2
+    x: 979
+    y: 560
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: ef2e70a9d8d103648b4bc614563d543e, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 5dc6bdcaa8751be479a0268ca5676ddc, type: 3}
+--- !u!114 &-4013284763542667241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 013b5449-25f1-4d01-b620-de77588c0cba
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: " I\u2019ll be the one to decide what is and isn\u2019t worth the time of
+    day constable. And don\u2019t think you are immune to any kind of scrutiny yourself.
+    Now this letter that Rhubarb mentioned where is it?"
+  children:
+  - ae0cd970-fb1d-4d3e-a9a3-b3ee39836b0b
+  rect:
+    serializedVersion: 2
+    x: 679
+    y: 560
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 7cc209e06912e8f4c8fa0fc5bdec608a, type: 3}
+--- !u!114 &-2117656569668841474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: f6ac955b-847c-49b0-8309-ceef6dbb18cf
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Thank you constable. I won\u2019t be long."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1707
+    y: 462
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: e2a32ad91abdd7145af802550b0def1f, type: 3}
+--- !u!114 &-2050819820149547896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: ea31900c-bdb1-48fb-87de-6a2509ebf73e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Ha yes. He does have quite the propensity for creating his own reality.
+    But I\u2019m curious about this supposed letter he mentioned. You wouldn\u2019t
+    happen to possess it?"
+  children:
+  - deea75e9-8a0b-4541-8f9a-1aa7276fb8b5
+  rect:
+    serializedVersion: 2
+    x: 695
+    y: 395
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: f61889df6577da54c8b1cc3dbf23fbfd, type: 3}
+--- !u!114 &-95912122251091690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: a3bde23b-6921-400f-98c5-a830d9747ab7
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Very impressive detective, never seen Rhubarb so talkative. Quite the tall
+    tale he spun there I must say. Shouldn\u2019t be given the time of day but it
+    is a good laugh all the same."
+  children:
+  - 2fdb5d7c-4edb-4ca9-8bef-fce2347b8363
+  - 6d5acc3c-7931-4bab-9265-6e246e651ee4
+  rect:
+    serializedVersion: 2
+    x: 77
+    y: 469
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 446575d520b96f742a3af9e5ff02877e, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Thistle after Rhubarb
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -95912122251091690}
+  - {fileID: 6141415976097243781}
+  - {fileID: 7482297784044232978}
+  - {fileID: -4013284763542667241}
+  - {fileID: -2050819820149547896}
+  - {fileID: 7047720532674213738}
+  - {fileID: -9024997966318697776}
+  - {fileID: 6358965718937170205}
+  - {fileID: -2117656569668841474}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &6141415976097243781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 2fdb5d7c-4edb-4ca9-8bef-fce2347b8363
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Disagree
+  children:
+  - 013b5449-25f1-4d01-b620-de77588c0cba
+  rect:
+    serializedVersion: 2
+    x: 363
+    y: 559
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &6358965718937170205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 6014348b-9a1d-4713-b695-a9d31c04c9af
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Oh and here's something else that should pique your interest Trowel. We
+    received a few noise complaints, reports of a domestic from none other than the
+    Tulip household. Must have been quite the row. Best you speak with Mrs Tulip.
+    But don\u2019t be long, we should have the autopsy report soon after. Not much
+    will come of it probably but these things are routine."
+  children:
+  - f6ac955b-847c-49b0-8309-ceef6dbb18cf
+  rect:
+    serializedVersion: 2
+    x: 1407
+    y: 462
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 66c7d8d13d7b5b24a8597cbed711bb1e, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 263b9438faae84349b6fb5076e28fc0e, type: 3}
+--- !u!114 &7047720532674213738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: deea75e9-8a0b-4541-8f9a-1aa7276fb8b5
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Oh yes the letter. Broken clock and all that I suppose. Here it is Trowel
+    do with it as you please. Better it with you than lost in our cabinets I suppose.
+  children:
+  - 6014348b-9a1d-4713-b695-a9d31c04c9af
+  rect:
+    serializedVersion: 2
+    x: 995
+    y: 395
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: ef2e70a9d8d103648b4bc614563d543e, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: b8f380b6f527f4146bcab4d51a2e3936, type: 3}
+--- !u!114 &7482297784044232978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 6d5acc3c-7931-4bab-9265-6e246e651ee4
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Agree
+  children:
+  - ea31900c-bdb1-48fb-87de-6a2509ebf73e
+  rect:
+    serializedVersion: 2
+    x: 379
+    y: 395
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}

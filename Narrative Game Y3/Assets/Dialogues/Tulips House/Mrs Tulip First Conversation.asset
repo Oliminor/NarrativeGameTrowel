@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8643304751613031041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 0f3f4f68-3ccf-4de3-9810-4fc73d7200ef
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Hello Mrs Tulip. Apologies for my intrusion but I came to offer my condolences
+    and to let you know I\u2019ll be investigating your husband's death."
+  children:
+  - 6bc35602-bca1-45a6-9738-bdccad1b39c4
+  rect:
+    serializedVersion: 2
+    x: 132
+    y: 223
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 33a444bf9b16dca4e96ed93b77087145, type: 2}
+  evidenceCard: {fileID: 11400000, guid: 82a89de930e435e4db5bfd61630b2641, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 9a61042b2b27f3d45884798d23c4c79b, type: 3}
+--- !u!114 &-5265055742193128610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 37bb52e4-1de1-4041-b4e0-293af628dbf3
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Noise Complaints?
+  children:
+  - c742eb9f-ad94-4ebf-89c1-84b6c85c8ebb
+  rect:
+    serializedVersion: 2
+    x: 1070
+    y: 315
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Mrs Tulip First Conversation
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8643304751613031041}
+  - {fileID: 4287430939068120914}
+  - {fileID: 2532826089151627456}
+  - {fileID: 3483568800711731697}
+  - {fileID: -5265055742193128610}
+  - {fileID: 1273696943112258310}
+  - {fileID: 3694526269636676572}
+  - {fileID: 2078251200528400161}
+  - {fileID: 3542273197022142169}
+  - {fileID: 5800490544730467532}
+  - {fileID: 3970891955857074935}
+  - {fileID: 865063996936238316}
+  - {fileID: 534936890273124226}
+  - {fileID: 6472872327877059785}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &534936890273124226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 43a0c2b8-fef5-452d-ba93-7c885f123a50
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "If you don\u2019t mind Mrs Tulip I\u2019d like to have a brief look around
+    your house."
+  children:
+  - 4fabfef1-7c6e-44ce-8598-52aef036827d
+  rect:
+    serializedVersion: 2
+    x: 1368
+    y: 453
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a46bb3c49c1d2284f91a1d512c2b701c, type: 3}
+--- !u!114 &865063996936238316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 9424919d-cefb-47f0-b3a4-e976ffea7cfd
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Look around?
+  children:
+  - 43a0c2b8-fef5-452d-ba93-7c885f123a50
+  rect:
+    serializedVersion: 2
+    x: 1029
+    y: 451
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &1273696943112258310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 362d3539-7208-467d-ae85-448db37add79
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Could you please tell me a little about your husband.
+  children:
+  - 42dfc548-7ca9-4004-9303-a4864c7be5ac
+  rect:
+    serializedVersion: 2
+    x: 1359
+    y: 194
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 2aa0762ac8e47e045bd48c1249a69120, type: 3}
+--- !u!114 &2078251200528400161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 588e543a-d1ce-4972-8e72-c41623ec4180
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: I feel there might not be quite as clear a consensus as you think Mrs Tulip.
+    Certainly, his secretary shares your sentiment.
+  children:
+  - 26cf21f3-f5e3-4346-820b-fcdaf6a12298
+  rect:
+    serializedVersion: 2
+    x: 1959
+    y: 194
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 155500e74cf2c74458665b472451ab2e, type: 3}
+--- !u!114 &2532826089151627456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 5d9678f3-c073-4181-a761-adb5c528588c
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 'Please, call me Trowel. '
+  children:
+  - d2ac0aa3-1032-42fe-b590-6dd61e490e3c
+  - 37bb52e4-1de1-4041-b4e0-293af628dbf3
+  - 9424919d-cefb-47f0-b3a4-e976ffea7cfd
+  rect:
+    serializedVersion: 2
+    x: 735
+    y: 222
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: ebb9fef58e6f60f49bdce966dc2c588b, type: 3}
+--- !u!114 &3483568800711731697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: d2ac0aa3-1032-42fe-b590-6dd61e490e3c
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Your Husband?
+  children:
+  - 362d3539-7208-467d-ae85-448db37add79
+  rect:
+    serializedVersion: 2
+    x: 1058
+    y: 195
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &3542273197022142169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 26cf21f3-f5e3-4346-820b-fcdaf6a12298
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Hmmm well yes I\u2019d expect nothing less from her. She certainly would
+    have quite a bit to say about him."
+  children:
+  - d2ac0aa3-1032-42fe-b590-6dd61e490e3c
+  - 37bb52e4-1de1-4041-b4e0-293af628dbf3
+  - 9424919d-cefb-47f0-b3a4-e976ffea7cfd
+  rect:
+    serializedVersion: 2
+    x: 2262
+    y: 189
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: c70b9d71d331fa74a87a198c55f38a18, type: 3}
+--- !u!114 &3694526269636676572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 42dfc548-7ca9-4004-9303-a4864c7be5ac
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Certainly. He was nothing less than the love of my life. A just man through
+    and through who cared greatly for everyone in the village. But me saying this
+    is surely redundant, I\u2019m sure you\u2019ve already heard such things expressed
+    unanimously throughout the village."
+  children:
+  - 588e543a-d1ce-4972-8e72-c41623ec4180
+  rect:
+    serializedVersion: 2
+    x: 1659
+    y: 194
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 5fa2675caf7260643ac8cdc0c0b596b7, type: 3}
+--- !u!114 &3970891955857074935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 17da3adc-2533-484e-81ba-5b688586b482
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Ha no I can assure you Trowel it was nothing of the sort. In a relationship
+    this long you have to make sure you're keeping the flames lit so to speak. Such
+    things are easily misinterpreted. I\u2019m sure you understand. "
+  children:
+  - d2ac0aa3-1032-42fe-b590-6dd61e490e3c
+  - 37bb52e4-1de1-4041-b4e0-293af628dbf3
+  - 9424919d-cefb-47f0-b3a4-e976ffea7cfd
+  rect:
+    serializedVersion: 2
+    x: 1652
+    y: 324
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 3ca19fe7822587049b2d33c325872ec9, type: 3}
+--- !u!114 &4287430939068120914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 6bc35602-bca1-45a6-9738-bdccad1b39c4
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Thank you Detective. That's very kind of you. I\u2019m happy to help you
+    in any way possible. "
+  children:
+  - 5d9678f3-c073-4181-a761-adb5c528588c
+  rect:
+    serializedVersion: 2
+    x: 430
+    y: 224
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 0279f625d89c67d4f876402d0e315ac5, type: 3}
+--- !u!114 &5800490544730467532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: c742eb9f-ad94-4ebf-89c1-84b6c85c8ebb
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 'We received a number of noise complaints the previous night Mrs Tulip. Some
+    reports even of a domestic. '
+  children:
+  - 17da3adc-2533-484e-81ba-5b688586b482
+  rect:
+    serializedVersion: 2
+    x: 1352
+    y: 324
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 5dc15639d49fad9419e1b973f6843ef4, type: 3}
+--- !u!114 &6472872327877059785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 4fabfef1-7c6e-44ce-8598-52aef036827d
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Please be my guest
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1671
+    y: 453
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 1b82710b466e9cc48a2d757ed0b2b988, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 0a82b15893c1cd64cbb74a46b8132cf9, type: 3}

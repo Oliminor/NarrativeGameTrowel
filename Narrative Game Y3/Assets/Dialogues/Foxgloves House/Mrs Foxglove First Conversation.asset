@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6053342637951656223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 0f78ed91-3772-4b36-9c92-86ab0dcfde46
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Hello there. You wouldn\u2019t happen to be Mrs Foxglove."
+  children:
+  - 16f1ce83-cffa-4c1f-95fe-61965622328e
+  rect:
+    serializedVersion: 2
+    x: 172
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 33a444bf9b16dca4e96ed93b77087145, type: 2}
+  evidenceCard: {fileID: 11400000, guid: fd2dd48225a7bc7489e28c873a095e9c, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 52e4aa66d4d26204aa27347b0d15a35a, type: 3}
+--- !u!114 &-4176023136156013893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 0554ea4a-b016-4c06-9125-2cc2e136f930
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "I jest detective, let an old lady have her fun. Now, why are you here? You
+    wouldn\u2019t have reason to suspect me now, would you."
+  children:
+  - 4a677ef9-6191-4268-ab89-f2b4cddb40ad
+  rect:
+    serializedVersion: 2
+    x: 1670
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 0dd751efff4c43145be3dbd21aa643f9, type: 3}
+--- !u!114 &-3379926500831038556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: c3ac7a99-5523-4c91-acc9-4acaa0e8698e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "No need to sugarcoat detective. Our animosity to one another is well known.
+    Now I\u2019m rather shocked to hear he\u2019s a suspect. He\u2019s a fool for
+    sure but not to that extent. He knows his wife is in need of care and being in
+    a cell won\u2019t help with that. Maybe I should pay her a visit."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2272
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 375dcbbf72b3b564e929ec88bac6d4d4, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: ffca44bff10c06f4a971ab108b79ba05, type: 3}
+--- !u!114 &-1069041869666852941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 1a35a6d8-1369-4463-b028-4369ad34f745
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Ha finally. Surprised it took this long for someone to pull the plug on
+    him. Who did it detective? His wife? The butcher? Maybe the priest. He\u2019s
+    always despised Tulip's lack of faith?"
+  children:
+  - 3d74c434-9da9-4f8c-9ca2-8f0547ba742e
+  rect:
+    serializedVersion: 2
+    x: 1070
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 11288673c4ccdd346b070f7d4fd1dae8, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Mrs Foxglove First Conversation
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6053342637951656223}
+  - {fileID: 6438795835962753927}
+  - {fileID: 7328064149169973022}
+  - {fileID: -1069041869666852941}
+  - {fileID: 3463441474380941984}
+  - {fileID: -4176023136156013893}
+  - {fileID: 1143281838631479472}
+  - {fileID: -3379926500831038556}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &1143281838631479472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 4a677ef9-6191-4268-ab89-f2b4cddb40ad
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: No not yet at least. But our current suspect Mr Rhubarb gave you a glowing
+    endorsement.
+  children:
+  - c3ac7a99-5523-4c91-acc9-4acaa0e8698e
+  rect:
+    serializedVersion: 2
+    x: 1972
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 34ab97fa5025dea4a9edd1005d8cdad6, type: 3}
+--- !u!114 &3463441474380941984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 3d74c434-9da9-4f8c-9ca2-8f0547ba742e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Mrs Foxglove please I didn\u2019t come here for your speculation. And watch
+    your tone, your enthusiasm for his death doesn\u2019t sit well with me."
+  children:
+  - 0554ea4a-b016-4c06-9125-2cc2e136f930
+  rect:
+    serializedVersion: 2
+    x: 1370
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: ff7a6971ce9d82a40bf8d116b56a8d67, type: 3}
+--- !u!114 &6438795835962753927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 16f1ce83-cffa-4c1f-95fe-61965622328e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Why yes I am. Now, who are you? You\u2019re quite the conspicuous figure.
+    Not police from the looks of it but you carry yourself with that same misplaced
+    sense of self righteousness."
+  children:
+  - 6e0ccc60-b3da-4f27-8590-b9464605f060
+  rect:
+    serializedVersion: 2
+    x: 470
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 0a9cb2446e3ac014fa95bf8ba1c9b6af, type: 3}
+--- !u!114 &7328064149169973022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 6e0ccc60-b3da-4f27-8590-b9464605f060
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "You\u2019ve a sharp tongue for a woman your age. I\u2019m Detective Trowel.
+    I\u2019m investigating the murder of Mr Tulip."
+  children:
+  - 1a35a6d8-1369-4463-b028-4369ad34f745
+  rect:
+    serializedVersion: 2
+    x: 770
+    y: 501
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 6c026977bce1fcc43afec747744c2e09, type: 3}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Mrs Foxglove Wrong Card Response
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1551946217812550079}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &1551946217812550079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 567269ad-f5e6-43ab-acb4-ce3600e8e73d
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Really now detective, I\u2019m not usually one to admit it but I\u2019ve
+    not got much time left on this earth. I\u2019d appreciate you not wasting it."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 265
+    y: 577
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: SmokeBlackScreen
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 44dc837da98ac434fa250cdc56593524, type: 3}

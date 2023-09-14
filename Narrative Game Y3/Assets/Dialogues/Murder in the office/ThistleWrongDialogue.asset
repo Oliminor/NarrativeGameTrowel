@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: ThistleWrongDialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3160408774364095960}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &3160408774364095960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 0ffda218-ac4f-435d-88d0-4a8abfc41e34
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "I don\u2019t care about the bloody decor in here Trowel. Not unless there's
+    actual blood on it that is. Why don\u2019t you look around a bit more?"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 145
+    y: 46
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: SmokeBlackScreen
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a54223f8b75cd634d93e8c465b12951b, type: 3}

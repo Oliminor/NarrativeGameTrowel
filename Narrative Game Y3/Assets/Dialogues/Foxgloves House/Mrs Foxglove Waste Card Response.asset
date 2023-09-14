@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8682298991414386681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: ab0bd834-39b0-4410-a0bb-3c17f32d4283
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Rhubarb believes his wife has become ill due to some kind of waste he saw
+    being dumped into the river by his farm.Suggested you might have some idea as
+    to what it is.
+  children:
+  - 5ab8e7e6-e4cd-4984-a23a-57d389672c9a
+  rect:
+    serializedVersion: 2
+    x: 145
+    y: 545
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: c2e7265221e110d4e8e5612d3c511389, type: 3}
+--- !u!114 &-7996277521220764371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 8a49e334-13b8-4547-bd87-950b0f4b9abb
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Be warned Detective, she might be tight lipped. They had quite the close
+    relationship, is all I\u2019ll say for now."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1949
+    y: 545
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: f7088d98f5879cc4b8702324ef605e98, type: 3}
+--- !u!114 &-6783169536517143561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 5ab8e7e6-e4cd-4984-a23a-57d389672c9a
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Ha only in his time of need does he see any value in me, always brushed
+    aside any suggestion I\u2019ve made for treating his land right. Best he knows
+    I\u2019m doing this for his wife\u2019s sake and not his own. But yes detective
+    I just might."
+  children:
+  - ec70a84f-c6ba-4e68-8e8c-89052827faf9
+  rect:
+    serializedVersion: 2
+    x: 445
+    y: 545
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 4f8ed672bd2764943b5231c1127f014c, type: 3}
+--- !u!114 &-3090264577296860902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: ec70a84f-c6ba-4e68-8e8c-89052827faf9
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "There's a coal factory nearby. They've been desperate to get ahold of the
+    deposits that lay around the village and Tulips always tried his best to grease
+    their wheels. Count our blessings that he doesn\u2019t own any of the land around
+    here. Its all passed along by families in the village."
+  children:
+  - 74aabafa-b61d-40f2-a7bf-8fe18fc06d4a
+  rect:
+    serializedVersion: 2
+    x: 748
+    y: 545
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: de6dccaf7b4dfe24bb1eb060a104b4aa, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: bd5bcaff0c3888e4cb2abcce6bc8c0cd, type: 3}
+--- !u!114 &-1991659378070702784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 9b9b1183-b463-4fa4-a4a6-184b2b0caaa5
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "But with withering crops and an ill wife that might be just the push he\u2019d
+    need. I\u2019ll have to ask Miss Rose if she knows anything."
+  children:
+  - 8a49e334-13b8-4547-bd87-950b0f4b9abb
+  rect:
+    serializedVersion: 2
+    x: 1649
+    y: 545
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: e2b42e790f90d754883058ec6db08c57, type: 3}
+--- !u!114 &-254220508821605047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 74aabafa-b61d-40f2-a7bf-8fe18fc06d4a
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Rhubarb being one of those families.
+  children:
+  - 265ceb78-4650-48bb-b603-4d77e17170f0
+  rect:
+    serializedVersion: 2
+    x: 1048
+    y: 545
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a5429bff32ae4584ba8d9752ebcd83a3, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Mrs Foxglove Waste Card Response
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8682298991414386681}
+  - {fileID: -6783169536517143561}
+  - {fileID: -3090264577296860902}
+  - {fileID: -254220508821605047}
+  - {fileID: 1320018221638654994}
+  - {fileID: -1991659378070702784}
+  - {fileID: -7996277521220764371}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &1320018221638654994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 265ceb78-4650-48bb-b603-4d77e17170f0
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "I\u2019d imagine so. And he\u2019d never give up his farmland, not as long
+    as it keeps growing a sizable crop."
+  children:
+  - 9b9b1183-b463-4fa4-a4a6-184b2b0caaa5
+  rect:
+    serializedVersion: 2
+    x: 1348
+    y: 546
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 30c792300ad01ea4489f3273f4cb90b2, type: 3}

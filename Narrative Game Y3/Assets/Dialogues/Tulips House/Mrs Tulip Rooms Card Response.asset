@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8407705597770295900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 70b3f30c-b732-410d-8fbd-09400aab0e9e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: " I must confess one flaw my husband did have was a thunderous snore. I\u2019m
+    quite the light sleeper and we had not much use for the guest room. I only sleep
+    in it when he has a particularly bad case of them keeping me up you see.  "
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 428
+    y: 180
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a8faf659ecd48494eb596aa2bf62f6c7, type: 3}
+--- !u!114 &-7385584723001220211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 44990cf5-eaab-4fd3-93f5-14c77502541e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "I\u2019m curious Mrs Tulip. You seem to have separate bedrooms.  "
+  children:
+  - 70b3f30c-b732-410d-8fbd-09400aab0e9e
+  rect:
+    serializedVersion: 2
+    x: 128
+    y: 180
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 68bb8a9b0c5feee45b0a356b82e00596, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Mrs Tulip Rooms Card Response
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7385584723001220211}
+  - {fileID: -8407705597770295900}
+  newNodeOffset: {x: 300, y: 0}

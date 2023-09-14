@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Mrs Tulip Autopsy Card Response
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1985035561843858109}
+  - {fileID: 2398845411884218397}
+  - {fileID: 3127401388187348508}
+  - {fileID: 1687056951388703533}
+  - {fileID: 3380067691122393649}
+  - {fileID: 4840440025092284394}
+  - {fileID: 8563342752045918785}
+  - {fileID: 2132887869193326948}
+  - {fileID: 2907023190609665087}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &1687056951388703533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: a7240a23-502f-4010-ba8f-0057d371a43f
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "(Sighs heavily). You know detective, it\u2019s a hard thing to accept your
+    husband has a mistress. It\u2019s a thought you try your hardest to cast aside.
+    But it clings and festers. Every so often he\u2019d come home late. He\u2019d
+    say he had to stay at work, but I could smell the wine on his breath. You learn
+    to ignore these things as best you can, for your own sake."
+  children:
+  - 50fcf22a-f84d-4fa8-9a45-9d81037b72f8
+  rect:
+    serializedVersion: 2
+    x: 1129
+    y: 877
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 07b3198d0017cc84cb523405ada6801d, type: 3}
+--- !u!114 &1985035561843858109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 2766cde3-cf7d-4aaf-a899-7c144a11c74c
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Mrs Tulip we need to talk some more about last night. Now I know this is
+    a very difficult time for you but I need you to be truthful or else we\u2019ll
+    never find your husband's murderer."
+  children:
+  - 62e7d393-4c70-45c9-b00a-54e71d4d0d6e
+  rect:
+    serializedVersion: 2
+    x: 229
+    y: 877
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 604d0659867bd8e4ea5e66a39c683ab2, type: 3}
+--- !u!114 &2132887869193326948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: cc3d843b-a672-4fbb-9917-2e1a17b83b49
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Absolutely Detective. Seemed to cut short whatever rage he was ready to fly
+    into. He returned to his room shortly after without a word. Those were my last
+    moments with him before his death.
+  children:
+  - 4b3527b8-e330-4fe4-aa62-2dbaf16e417b
+  rect:
+    serializedVersion: 2
+    x: 2329
+    y: 876
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: cd78d3a3795996e4b9b7d357970d3130, type: 3}
+--- !u!114 &2398845411884218397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 62e7d393-4c70-45c9-b00a-54e71d4d0d6e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Of course Detective. But I\u2019ve been nothing but truthful with you. What\u2019s
+    the issue?"
+  children:
+  - 6b43a67e-07ee-4b2c-8ca4-0bdf36037045
+  rect:
+    serializedVersion: 2
+    x: 529
+    y: 877
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 17ad4c6c81181d442bcc73cead33ce22, type: 3}
+--- !u!114 &2907023190609665087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 4b3527b8-e330-4fe4-aa62-2dbaf16e417b
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Thank you Mrs Tulip. I think I\u2019d best speak with Miss Rose."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2629
+    y: 876
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 7c0a003b46be40e4dbde0538f850c20a, type: 3}
+--- !u!114 &3127401388187348508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 6b43a67e-07ee-4b2c-8ca4-0bdf36037045
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Don\u2019t be coy Tulip. The noise complaints. The separate rooms. Your
+    sleeping tonic. It all paints a picture far less rosy than you\u2019d have us
+    believe, and now we have evidence of scratches to his chest that happened that
+    same night. So please Mrs Tulip, what really happened last night?"
+  children:
+  - a7240a23-502f-4010-ba8f-0057d371a43f
+  rect:
+    serializedVersion: 2
+    x: 829
+    y: 877
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: aeba4ec74f4063c45990c3f89b1e65cd, type: 3}
+--- !u!114 &3380067691122393649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 50fcf22a-f84d-4fa8-9a45-9d81037b72f8
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "But last night detective, he didn\u2019t even have the courtesy to try and
+    hide it. He came home a dishevelled mess. Shirt unbuttoned and dripping with
+    sweat. It was the last straw. I told him I knew what was happening between him
+    and that bloody secretary."
+  children:
+  - 3a5c2bdc-ca33-4d3d-a14c-9b08c3ebec42
+  rect:
+    serializedVersion: 2
+    x: 1429
+    y: 877
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: afe067128e79db94fbafad68e22eaacf, type: 3}
+--- !u!114 &4840440025092284394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 3a5c2bdc-ca33-4d3d-a14c-9b08c3ebec42
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Openly acknowledging it seemed to twig something in him I\u2019d never witnessed
+    before. He\u2019s always been one for nasty remarks sure, but never aggression.
+    In that moment he had a look in his eyes of outright hostility. When he came
+    towards me I had no intention of letting him lay a finger on me."
+  children:
+  - 516068a7-ad1e-40a5-bb71-6da2665bb82d
+  rect:
+    serializedVersion: 2
+    x: 1729
+    y: 876
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: f3f68985770f6b34aa76d87bd2bab493, type: 3}
+--- !u!114 &8563342752045918785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 516068a7-ad1e-40a5-bb71-6da2665bb82d
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: And that's when you scratched at his chest.
+  children:
+  - cc3d843b-a672-4fbb-9917-2e1a17b83b49
+  rect:
+    serializedVersion: 2
+    x: 2029
+    y: 876
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: b77b4358fc5ac8b4a851d5454d81cf0a, type: 3}

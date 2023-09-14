@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8822600803295897626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: fff0c373-8387-4939-9164-58529ae5d401
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: 'Certainly Detective. Anything at all. '
+  children:
+  - 256258d3-96c8-4f7d-bbc4-738ae33c221b
+  - b65a9190-0a2f-4db9-bd57-447a727bfd67
+  - b3fce19d-6db9-4f3f-b9fd-109a73329c45
+  rect:
+    serializedVersion: 2
+    x: 636
+    y: 286
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: 170c38c89f8435b47ac97710d659cc3c, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: dc57f26b2ba53c94b9d8df1775c1382d, type: 3}
+--- !u!114 &-6885841709392524338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 1adbc138-7609-49ce-9116-8a3086ff1164
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Oh well I never was much more than his secretary. I knew him as well as
+    one does someone they work with every day. And what a good job he\u2019d do every
+    day without fail. I\u2019ve got nothing bad to say about him, he always treated
+    me well as his secretary."
+  children:
+  - 256258d3-96c8-4f7d-bbc4-738ae33c221b
+  - b65a9190-0a2f-4db9-bd57-447a727bfd67
+  - b3fce19d-6db9-4f3f-b9fd-109a73329c45
+  rect:
+    serializedVersion: 2
+    x: 1574
+    y: 339
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 8a71ac71450a157479ae415a3bbec96c, type: 3}
+--- !u!114 &-3788510011957460036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 6b4608f2-1722-4cf8-94b6-59589085106c
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: What was your relationship like with Mr Tulip?
+  children:
+  - 1adbc138-7609-49ce-9116-8a3086ff1164
+  rect:
+    serializedVersion: 2
+    x: 1270
+    y: 333
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: b3587e48a13aaef429d0d4f82d234fb4, type: 3}
+--- !u!114 &-3247215481355482517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 256258d3-96c8-4f7d-bbc4-738ae33c221b
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: What did you witness?
+  children:
+  - 8bb8954a-4606-4530-93c4-c619fe9d7682
+  rect:
+    serializedVersion: 2
+    x: 975
+    y: 230
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &-3132741239187919089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 9c7a6f32-020d-4ecf-9778-d9d8c9699c87
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Good day Miss Rose. Terribly sorry about what's happened here. If you\u2019re
+    not too shaken up may I ask you a few questions about what happened here?  "
+  children:
+  - fff0c373-8387-4939-9164-58529ae5d401
+  rect:
+    serializedVersion: 2
+    x: 297
+    y: 285
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: e6d261d8425badd44a4049aed4feaec8, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: RoseDialogue1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3132741239187919089}
+  - {fileID: -8822600803295897626}
+  - {fileID: -3247215481355482517}
+  - {fileID: 2860084276284912487}
+  - {fileID: 8778331752889208141}
+  - {fileID: 3411402604196665174}
+  - {fileID: 3615338831533880592}
+  - {fileID: 8563605182319095788}
+  - {fileID: 2170021297142049657}
+  - {fileID: 3733648192090208142}
+  - {fileID: 6354417313152993377}
+  - {fileID: -3788510011957460036}
+  - {fileID: -6885841709392524338}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &2170021297142049657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 2f27620c-f15f-40b8-930c-972b2e8e3727
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: " I\u2019d have never imagined him saying such things. When I got to the
+    office I saw Rhubarb shoving Mr Tulip with all his strength towards the table.
+    Afterwards Rhubarb just stood there pale as a ghost. Couldn\u2019t pay me a single
+    glance, he just stared down at the floor. "
+  children:
+  - 2133a13e-201e-4c1d-8657-12f42edd17b2
+  rect:
+    serializedVersion: 2
+    x: 1876
+    y: 229
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a588ef5bf86c8c046bebfff90cf5083e, type: 3}
+--- !u!114 &2860084276284912487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: b65a9190-0a2f-4db9-bd57-447a727bfd67
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Mr Tulip?
+  children:
+  - 6b4608f2-1722-4cf8-94b6-59589085106c
+  rect:
+    serializedVersion: 2
+    x: 956
+    y: 345
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &3411402604196665174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 9121c996-0a79-45b2-8b8c-1c62bda6b036
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Thank you Miss Rose. That'll be all for now.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1270
+    y: 471
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 3df00477212ed4e4baa0b20ec70840fc, type: 3}
+--- !u!114 &3615338831533880592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 8bb8954a-4606-4530-93c4-c619fe9d7682
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 'Could you please recount your experience leading up to your witnessing Mr
+    Tulips death? '
+  children:
+  - 94202af6-4364-4554-9091-cdc3655ebdc8
+  rect:
+    serializedVersion: 2
+    x: 1275
+    y: 230
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 5763fceace3622f44ab37e7214368c97, type: 3}
+--- !u!114 &3733648192090208142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 2133a13e-201e-4c1d-8657-12f42edd17b2
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: And at that moment you then called the Police?
+  children:
+  - 0a6f7007-f6fe-49d5-92e8-238b929fc5b1
+  rect:
+    serializedVersion: 2
+    x: 2177
+    y: 229
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a734303dbc5dfce448891e707ca28ead, type: 3}
+--- !u!114 &6354417313152993377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 0a6f7007-f6fe-49d5-92e8-238b929fc5b1
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: 'Yes I hurried downstairs quickly as I could and made the call. The whole
+    time Rhubarb just waited upstairs. '
+  children:
+  - 256258d3-96c8-4f7d-bbc4-738ae33c221b
+  - b65a9190-0a2f-4db9-bd57-447a727bfd67
+  - b3fce19d-6db9-4f3f-b9fd-109a73329c45
+  rect:
+    serializedVersion: 2
+    x: 2488
+    y: 229
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 463333ac5fd538646842b29cfa1e6b09, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 500bc94cc20183f49a82b8bf7a28f556, type: 3}
+--- !u!114 &8563605182319095788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 94202af6-4364-4554-9091-cdc3655ebdc8
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Certainly. Mr Rhubarb had a meeting planned with Mr Tulip this morning. He
+    came in with quite the aggressive demeanour. I ushered him towards the stairs
+    to Mr Tulips office. Before long I heard shouting from upstairs. Something to
+    do with waste being dumped in the river followed by a flurry of vitriol from
+    Mr Rhubarb.
+  children:
+  - 2f27620c-f15f-40b8-930c-972b2e8e3727
+  rect:
+    serializedVersion: 2
+    x: 1575
+    y: 230
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 43488a777f992414fa7e4c2f0dc2cff1, type: 3}
+--- !u!114 &8778331752889208141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: b3fce19d-6db9-4f3f-b9fd-109a73329c45
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: End Conversation
+  children:
+  - 9121c996-0a79-45b2-8b8c-1c62bda6b036
+  rect:
+    serializedVersion: 2
+    x: 970
+    y: 470
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}

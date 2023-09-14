@@ -1,0 +1,638 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9154662374099662683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: bffc6d06-fc61-4bad-8d91-7e1dff5c11ee
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: That short sighted oaf of a farmer. I avoid him best I can. He'd burn this
+    whole village to the ground to get rid of a few measly bugs if he could. I've
+    told him for years to stop spraying his crops with that crap of his.
+  children:
+  - 902e2e50-50fd-4299-9a21-12fe339a7575
+  rect:
+    serializedVersion: 2
+    x: 1365
+    y: 210
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 43c8ddf51d2b7db428fe4e8ed903bcf9, type: 3}
+--- !u!114 &-8793046445715361420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 95fe6fe2-0cef-4d26-94b8-a409825c7dd7
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: I'm afraid as of now your little village isn't quite as peaceful as you once
+    thought Mrs...
+  children:
+  - 67ef7e36-c27b-4dc2-ba39-df1f5b06d948
+  rect:
+    serializedVersion: 2
+    x: 483
+    y: 264
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: ff6310d4e39bd9f41ba5c688bbcca256, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &-8776289221133126817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 788ffdae-ff58-4564-b8aa-b6cb56bb4947
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Don't you worry about me Mr Detective I'm having a very pleasant time out
+    here. It might do you well to spend some time here away from the masses of people
+    in the city.
+  children:
+  - 4f2e86e2-726d-4dff-b97e-99645de8b474
+  - 727a00b3-d4cb-4b0b-b3ef-e21ad287a6af
+  - e2d1ff92-c784-4418-ad87-9dbb8b5e11bd
+  - 69c8da44-d94c-46d7-9fd6-af011e65ab6c
+  rect:
+    serializedVersion: 2
+    x: 2568
+    y: 110
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 55308c2623c06a54bb77cc4961d4171c, type: 3}
+--- !u!114 &-8514051975785439021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 4135a297-96ce-4a69-8180-8f97468e49f6
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Right here in my home as I often am.
+  children:
+  - 934ce0af-47c5-45c9-85d5-08693b34dd44
+  rect:
+    serializedVersion: 2
+    x: 1367
+    y: 110
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 1b67ce583fa3d2149bafbb1a113d7255, type: 3}
+--- !u!114 &-5074963576320040001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 09d4b0f4-cb79-4b34-92db-635656509d16
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: That sounds dreadfully dull Mr Detective
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1364
+    y: 414
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 029a604666a317e4bbfe6bf6598a2a03, type: 3}
+--- !u!114 &-4843273022013948695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 585585cf-5cfc-477b-9eb5-2caf65287313
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: I see... That makes you an expert around dangerous plants then I would assume?
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2264
+    y: 309
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &-4002158990871327107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: be271405-04c9-4a33-9cfa-11a71ff86ddf
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Well you seem rather out of place in these parts. I've 'eard murmurs about
+    you skulking around our peaceful village
+  children:
+  - 95fe6fe2-0cef-4d26-94b8-a409825c7dd7
+  rect:
+    serializedVersion: 2
+    x: 204
+    y: 262
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 97fea49bdea6225419af6b936fbc8410, type: 3}
+--- !u!114 &-656410156614391465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 0a627d63-8670-442f-a6fd-f0d6e4badcfa
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 'It must be lonely for you at times. Are you getting out much '
+  children:
+  - 788ffdae-ff58-4564-b8aa-b6cb56bb4947
+  rect:
+    serializedVersion: 2
+    x: 2268
+    y: 110
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Sample Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4002158990871327107}
+  - {fileID: -8793046445715361420}
+  - {fileID: 2394023491748081478}
+  - {fileID: 6341130677772968355}
+  - {fileID: 1957884222572966922}
+  - {fileID: 8965805185288988029}
+  - {fileID: 7096398129126252571}
+  - {fileID: -5074963576320040001}
+  - {fileID: -9154662374099662683}
+  - {fileID: 2366174887254353040}
+  - {fileID: 4689045800212985881}
+  - {fileID: 1082395960085424370}
+  - {fileID: -8514051975785439021}
+  - {fileID: 1849932648996498872}
+  - {fileID: 6734368266345559744}
+  - {fileID: -656410156614391465}
+  - {fileID: -8776289221133126817}
+  - {fileID: 7707901412763483758}
+  - {fileID: 8955067219666933100}
+  - {fileID: 5439909149544967565}
+  - {fileID: -4843273022013948695}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &1082395960085424370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: dc586d3f-3610-4c11-921b-229a117cf404
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: You seem to handle a lot of poisonous things yourself
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2265
+    y: 210
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &1849932648996498872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 934ce0af-47c5-45c9-85d5-08693b34dd44
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Were you with anyone else that evening?
+  children:
+  - 933d2dde-7f77-4836-8715-d532c31cd0c6
+  rect:
+    serializedVersion: 2
+    x: 1667
+    y: 110
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &1957884222572966922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 727a00b3-d4cb-4b0b-b3ef-e21ad287a6af
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: What affiliations do you have with the suspect?
+  children:
+  - bffc6d06-fc61-4bad-8d91-7e1dff5c11ee
+  rect:
+    serializedVersion: 2
+    x: 1066
+    y: 210
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &2366174887254353040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 902e2e50-50fd-4299-9a21-12fe339a7575
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: I take it you have differing ideas on how best to care for plants.
+  children:
+  - 64884648-2ae2-464a-91b3-292ff293e174
+  rect:
+    serializedVersion: 2
+    x: 1665
+    y: 210
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &2394023491748081478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 67ef7e36-c27b-4dc2-ba39-df1f5b06d948
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Mrs Foxglove. Yes I'm afraid some rather unsavoury events have occurred.
+    I'm happy to tell you anything you need to know.
+  children:
+  - 4f2e86e2-726d-4dff-b97e-99645de8b474
+  - 727a00b3-d4cb-4b0b-b3ef-e21ad287a6af
+  - e2d1ff92-c784-4418-ad87-9dbb8b5e11bd
+  - 69c8da44-d94c-46d7-9fd6-af011e65ab6c
+  rect:
+    serializedVersion: 2
+    x: 772
+    y: 261
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: SetName
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: dfe69a5c8566b854fbfb7e40e573fe40, type: 3}
+--- !u!114 &4689045800212985881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 64884648-2ae2-464a-91b3-292ff293e174
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: All these farmers are the same. Its been almost a decade now that they've
+    just doused their fields in that horrible stuff. Council started spraying it
+    too all around the pavements. For what? To kill a few measly weeds. This areas
+    been a fertile one for centuries and that'll all go to waste.
+  children:
+  - dc586d3f-3610-4c11-921b-229a117cf404
+  rect:
+    serializedVersion: 2
+    x: 1965
+    y: 210
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: f5da85e53b5c4314492bf7f9199f47e4, type: 3}
+--- !u!114 &5439909149544967565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 0c219a9c-055d-4326-8282-038789e11d6a
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: I used to work in the botanical gardens in London
+  children:
+  - 585585cf-5cfc-477b-9eb5-2caf65287313
+  rect:
+    serializedVersion: 2
+    x: 1965
+    y: 309
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 38b4d3cfbe99c934e87d9c101e4b4f6b, type: 3}
+--- !u!114 &6341130677772968355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 4f2e86e2-726d-4dff-b97e-99645de8b474
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: Where were you on the night of the murder?
+  children:
+  - 4135a297-96ce-4a69-8180-8f97468e49f6
+  rect:
+    serializedVersion: 2
+    x: 1067
+    y: 110
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &6734368266345559744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 933d2dde-7f77-4836-8715-d532c31cd0c6
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Heavens no. Who'd want to hang around with a batty old widow and her plants.
+  children:
+  - 0a627d63-8670-442f-a6fd-f0d6e4badcfa
+  rect:
+    serializedVersion: 2
+    x: 1968
+    y: 110
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 0cc7dd4a12943d346ba6db9a000a4299, type: 3}
+--- !u!114 &7096398129126252571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: e2d1ff92-c784-4418-ad87-9dbb8b5e11bd
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: You seem to have quite the affinity for your namesake
+  children:
+  - ae69af01-5abd-4d3d-b0f2-f7b16faa717f
+  rect:
+    serializedVersion: 2
+    x: 1064
+    y: 309
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &7707901412763483758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: ae69af01-5abd-4d3d-b0f2-f7b16faa717f
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Of course, I've been tending to these plants for over 45 years!
+  children:
+  - 06b4a14c-bf88-43c3-979b-17497b96c68f
+  rect:
+    serializedVersion: 2
+    x: 1388
+    y: 324
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: db471de7cdbd51845b5fb27cc8a94bd5, type: 3}
+--- !u!114 &8955067219666933100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 06b4a14c-bf88-43c3-979b-17497b96c68f
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: What is it that you do exactly Mrs Foxglove if you don't mind me asking?
+  children:
+  - 0c219a9c-055d-4326-8282-038789e11d6a
+  rect:
+    serializedVersion: 2
+    x: 1664
+    y: 309
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &8965805185288988029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 69c8da44-d94c-46d7-9fd6-af011e65ab6c
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: I best be off now Mrs Foxglove, you stay out of trouble now
+  children:
+  - 09d4b0f4-cb79-4b34-92db-635656509d16
+  rect:
+    serializedVersion: 2
+    x: 1064
+    y: 414
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8805599539507163006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 435e1c5a-78bf-4455-9e5a-e1bf520c3415
+  m_EditorClassIdentifier: 
+  dialogueStatus: 2
+  text: Ohh... it is a table!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 302
+    y: -1
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 88d8959ebd8c91c4cabc438935d6e661, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &-2766373080538566044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 160eadb5-2ce1-4e48-b01f-c958b6067bc5
+  m_EditorClassIdentifier: 
+  dialogueStatus: 2
+  text: Hmm... seems like a table.
+  children:
+  - 435e1c5a-78bf-4455-9e5a-e1bf520c3415
+  rect:
+    serializedVersion: 2
+    x: 1
+    y: 0
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: TableTestDialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2766373080538566044}
+  - {fileID: -8805599539507163006}
+  newNodeOffset: {x: 300, y: 0}

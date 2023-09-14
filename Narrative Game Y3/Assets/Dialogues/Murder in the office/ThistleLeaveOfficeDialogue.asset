@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3215381195690777891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 17e6c077-623d-4a0d-8a18-9ddd64b1f9ab
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "In a cosy cell down at the station. Let\u2019s go pay him a visit. (Police
+    station marker on the map now available."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 554
+    y: 180
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: eea5aa1fd0261f043bc4eb3794287ef9, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: fc9481c004a24cf4888ae33ec88f5c04, type: 3}
+--- !u!114 &-1613285126882716560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 2d75cd2c-0076-4464-ac6a-d33495de2814
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: ThistleLeaveOfficeDialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 644492861248018609}
+  - {fileID: -3215381195690777891}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &644492861248018609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 22a6d45e-380b-4a5f-bd78-67c89cf9c5e7
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Well Constable I think I\u2019ve seen just about everything I need to for
+    the time being. Where might I find our man of the hour Mr Rhubarb."
+  children:
+  - 17e6c077-623d-4a0d-8a18-9ddd64b1f9ab
+  rect:
+    serializedVersion: 2
+    x: 254
+    y: 180
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: e0d89ffdbd96a2642818900a2837cbcc, type: 3}

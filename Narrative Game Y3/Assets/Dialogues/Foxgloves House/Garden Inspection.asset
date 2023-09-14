@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3140358476397441616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: a292d741-7539-4d9a-a07b-019ce89c1e29
+  m_EditorClassIdentifier: 
+  dialogueStatus: 2
+  text: A carefully cultivated plot. It harbours a bounty of Foxgloves. Their pleasant
+    appearance is betrayed by a less than pleasant odour. A warning of just how deadly
+    they can be when ingested.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: 540e4f97633d5e445ab76836eba2e449, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Garden Inspection
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3140358476397441616}
+  newNodeOffset: {x: 300, y: 0}

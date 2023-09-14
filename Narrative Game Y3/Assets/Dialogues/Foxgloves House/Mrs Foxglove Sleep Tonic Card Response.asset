@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3067687936369204191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 469e6366-2aa9-4fdb-ae7a-33c4664f183c
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "That\u2019d be one of my very own detective. Mrs Tulip asked if I had anything
+    that might help her sleep, seemed their relationship was becoming quite strained
+    from what she said to me."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 505
+    y: 523
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: a76522c7a50e96140ae8d697add34f4d, type: 3}
+--- !u!114 &-2252014086524849673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 57144af1-e336-49dc-80c3-b145d192118f
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: I visited Mrs Tulip recently and noticed a curious bottle on her bedside,
+    a sleeping remedy of sorts.
+  children:
+  - 469e6366-2aa9-4fdb-ae7a-33c4664f183c
+  rect:
+    serializedVersion: 2
+    x: 204
+    y: 523
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: fecc4bcf052393c47acee1a905c86988, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Mrs Foxglove Sleep Tonic Card Response
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2252014086524849673}
+  - {fileID: -3067687936369204191}
+  newNodeOffset: {x: 300, y: 0}

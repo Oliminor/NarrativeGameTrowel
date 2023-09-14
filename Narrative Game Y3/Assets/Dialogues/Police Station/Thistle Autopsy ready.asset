@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7766331674171766373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 417fb424-8288-4e88-922f-9be36a05f9b5
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "You're in luck detective. I\u2019ve got it right here. Hot off the coroner's
+    presses. Have a flip through now. I\u2019m curious what you think."
+  children:
+  - c04d4f52-2cb0-4f5e-8d28-fb4391a7f4ac
+  rect:
+    serializedVersion: 2
+    x: 876
+    y: 820
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 11400000, guid: 0da3652178c1cf84ba979c15e0d34b15, type: 2}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: daa16fc9d80373f4592b254c255eea3d, type: 3}
+--- !u!114 &-4144227273207494893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: ce850b99-c058-4f8a-a269-f5e41997a252
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "I\u2019ll be back for that soon. I best be off."
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2375
+    y: 820
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: e5a526d1b8605c849b7b856771ab5e4e, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 9b0996f8477871e41b5d0d3257530231, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: Thistle Autopsy ready
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1308920945535282802}
+  - {fileID: 3275824785252894094}
+  - {fileID: -7766331674171766373}
+  - {fileID: 3860767732493557722}
+  - {fileID: 496283739930355453}
+  - {fileID: 8619551880612177887}
+  - {fileID: 620582803648384137}
+  - {fileID: -4144227273207494893}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &496283739930355453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: f7154a1c-b71a-4e8d-92c9-2fe7c5b4d54b
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: Thats an interesting one detective. Relatively light abrasions, nothing lethal
+    at all, but very fresh. He got them just the night before.
+  children:
+  - 3dbe8c31-da8b-49b9-840f-742e3eaa9e5e
+  rect:
+    serializedVersion: 2
+    x: 1475
+    y: 820
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: b21e41c0194638d42a4342826accfa19, type: 3}
+--- !u!114 &620582803648384137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 291ac53a-11fc-443b-b5ae-08f703897a38
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Nothing concrete yet but it seems it wasn\u2019t just poor health that had
+    his heart give out. We\u2019ll know more once the toxicology report is in."
+  children:
+  - ce850b99-c058-4f8a-a269-f5e41997a252
+  rect:
+    serializedVersion: 2
+    x: 2075
+    y: 820
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: c422cc5039fee8549b3fe1bd9524c8e0, type: 3}
+--- !u!114 &1308920945535282802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 1503ebb3-9e0f-4966-8301-6dad253babf8
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Ah Detective your\u2019re just the man I was hoping to see. How goes the
+    investigation. Any exciting leads."
+  children:
+  - 930f8220-5e05-4634-9027-6b157bfe5d50
+  rect:
+    serializedVersion: 2
+    x: 275
+    y: 816
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 10e4af56f7166674a8b9c9f86f1742d6, type: 3}
+--- !u!114 &3275824785252894094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 930f8220-5e05-4634-9027-6b157bfe5d50
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: "Loose threads constable, that\u2019s about all I\u2019ve got ahold of right
+    now. Now where\u2019s that autopsy?"
+  children:
+  - 417fb424-8288-4e88-922f-9be36a05f9b5
+  rect:
+    serializedVersion: 2
+    x: 574
+    y: 817
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 44cd47d52a97d424c83d9457fb21512f, type: 3}
+--- !u!114 &3860767732493557722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: c04d4f52-2cb0-4f5e-8d28-fb4391a7f4ac
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 'Goodness. Cardiac arrest! Rhubarb just might have been telling the truth.
+    Now what''s this about lacerations to the chest? '
+  children:
+  - f7154a1c-b71a-4e8d-92c9-2fe7c5b4d54b
+  rect:
+    serializedVersion: 2
+    x: 1178
+    y: 820
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 20b39d3272669be40973df867bced873, type: 3}
+--- !u!114 &8619551880612177887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 3dbe8c31-da8b-49b9-840f-742e3eaa9e5e
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 'And whats all this about the possibility of poisoning? '
+  children:
+  - 291ac53a-11fc-443b-b5ae-08f703897a38
+  rect:
+    serializedVersion: 2
+    x: 1775
+    y: 820
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 4030d2d33862b744fae03523e279af17, type: 3}

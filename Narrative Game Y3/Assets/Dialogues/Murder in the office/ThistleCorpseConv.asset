@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe46c859e4e47544b10ad23a1ec5b59, type: 3}
+  m_Name: ThistleCorpseConv
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2079582757871890361}
+  - {fileID: 7441796333158070505}
+  newNodeOffset: {x: 300, y: 0}
+--- !u!114 &2079582757871890361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: 70c10da4-03a0-4ac6-bfe0-c8174abbd775
+  m_EditorClassIdentifier: 
+  dialogueStatus: 0
+  text: 'Seems he had quite the nasty collision with his own desk. A severe blunt
+    force trauma, concussing him and leading to fatal blood loss. '
+  children:
+  - d105d25b-0834-4410-b140-c5e65407a1b1
+  rect:
+    serializedVersion: 2
+    x: 8
+    y: 174
+    width: 250
+    height: 100
+  completedTask: {fileID: 0}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: d29c82cdb07f9c447981d61fce6f3183, type: 3}
+--- !u!114 &7441796333158070505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6131a39233c664a96c408ecb7767ce, type: 3}
+  m_Name: d105d25b-0834-4410-b140-c5e65407a1b1
+  m_EditorClassIdentifier: 
+  dialogueStatus: 1
+  text: "Astute as always detective Trowel. Now might be the time to check up on
+    poor Miss Rose over there. She\u2019s had quite the morning. She was a direct
+    witness to the crime. Very fortunate for us but not so much for her. "
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 308
+    y: 174
+    width: 250
+    height: 100
+  completedTask: {fileID: 11400000, guid: 7976073fad8c78349868f7c5975c085b, type: 2}
+  evidenceCard: {fileID: 0}
+  onEnterAction: 
+  onExitAction: 
+  aimTarget: 
+  voiceoverAudio: {fileID: 8300000, guid: 16e85c11c395744428a650126175bffc, type: 3}
